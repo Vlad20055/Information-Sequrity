@@ -1,0 +1,24 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore build directories
+/build
+/build/
+build/
+build*/
+
+# Ignore IDE configuration folders
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.cache/
