@@ -1,4 +1,3 @@
-// ... existing code ...
 #include "gost_core.h"
 #include <cstring>
 #include <fstream>
