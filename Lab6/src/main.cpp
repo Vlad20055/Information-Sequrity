@@ -1,3 +1,12 @@
+/*
+cmake -S . -B build && cmake --build build -j
+./build/gost3410 keygen examples/public.key examples/private.key   # -b 512 для 512 бит
+./build/gost3410 sign examples/private.key examples/input.txt examples/input.sig
+./build/gost3410 verify examples/public.key examples/input.txt examples/input.sig
+./build/gost3410 test
+*/
+
+
 #include "gost3410.h"
 
 #include <cstdio>
